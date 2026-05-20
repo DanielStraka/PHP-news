@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 session_start();
 if (!isset($_SESSION['author'])) {
     header('Location: login.php');
@@ -14,6 +14,7 @@ if (!isset($_SESSION['author'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 
     <script src="js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
